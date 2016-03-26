@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+    <item>
+        <path>civicrm/journaltracking</path>
+        <page_callback>CJT_Page_Journaltracking_JournalControls</page_callback>
+        <title>Journal Tracking (AEJ)</title>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+    <item>
+        <path>civicrm/journaltracking/export</path>
+        <page_callback>CJT_Form_Journaltracking_Export</page_callback>
+        <page_arguments>mode=1</page_arguments>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+    <item>
+        <path>civicrm/journaltracking/export-catchup</path>
+        <page_callback>CJT_Form_Journaltracking_ExportCatchup</page_callback>
+        <page_arguments>mode=1</page_arguments>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+      <item>
+     <path>civicrm/journaltracking/view</path>
+     <page_arguments>mode=1</page_arguments>
+     <page_callback>CJT_Page_Journaltracking_View</page_callback>
+     <access_arguments>access CiviCRM</access_arguments>
+  </item>  
+    
+</menu>
